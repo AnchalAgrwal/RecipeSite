@@ -33,7 +33,7 @@ function App() {
   return (
     <Routes>
       <Route
-        path="/"
+        path="/RecipeApp"
         element={
           <div>
             <Header />
