@@ -7,29 +7,7 @@ import "./styles.css";
 import GetRecipe from "./components/GetRecipe";
 import { Routes, Route } from "react-router-dom";
 
-// const router = createBrowserRouter([
-//   {
-//     path: "/getRecipe/:id",
-//     element: (
-//       <div>
-//         <Header />
-//         <GetRecipe />
-//       </div>
-//     ),
-//   },
-//   {
-//     path: "/",
-//     element: (
-//       <div>
-//         <Header />
-//         <Homepage />
-//       </div>
-//     ),
-//   },
-// ]);
-
 function App() {
-  // return <RouterProvider router={router} />;
   return (
     <Routes>
       <Route
