@@ -1,7 +1,7 @@
 {
   "name": "recipeapp",
   "homepage": "https://anchalagrwal.github.io/RecipeApp",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
