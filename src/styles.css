@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+.recipeCard {
+    width: 80%;
+    margin: 25px;
+    overflow: hidden;
+    background-color: white;
+    color: white;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+  }
+  
+  .getRecipe {
+    width: 80%;
+    margin: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .search {
+    width: 85%;
+  }
+  
+  .tabs {
+    display: none;
+  }
+
+  .contact img{
+    width: 72%;
+    border-radius: 50%;
+    margin:auto;
+    border:3px solid white;
+  }
+
+  .contact p{
+    margin:5px;
+  }
+
+  
+  @media only screen and (min-width: 600px) {
+    .recipeCard {
+      width: 40%;
+    }
+    .search {
+      width: 55%;
+    }
+    .getRecipe {
+      width: 40%;
+      float: left;
+    }
+  
+    .tabs {
+      display: inline;
+    }
+
+    .menuIcon{
+        display: none;
+    }
+
+    .contact img{
+        width: 40%;
+    }
+  }
+  
+  @media only screen and (min-width: 900px) {
+    .recipeCard {
+      width: 27.5%;
+    }
+    .search {
+      width: 45%;
+    }
+    .getRecipe {
+      width: 30%;
+      float: left;
+    }
+
+    .contact img{
+        width: 25%;
+    }
+  }
+  
