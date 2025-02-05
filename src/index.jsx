@@ -5,7 +5,7 @@ import App from './App.jsx'
 import "./styles.css";
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/RecipeApp">
+  <BrowserRouter Basename={process.env.PUBLIC_URL}>
   <StrictMode>
     <App />
   </StrictMode>
